@@ -1,0 +1,25 @@
+let mapleader = ","
+set surround
+set clipboard=unnamed    "Set yank to clipboard"
+set scrolloff=999
+nnoremap U <C-r>
+"inoremap en <Esc>
+
+" remap split navigation
+nnoremap <C-H> <C-W>h
+nnoremap <C-J> <C-W>j
+nnoremap <C-K> <C-W>k
+nnoremap <C-L> <C-W>l
+
+nnoremap <A-f> <C-f>
+nnoremap <A-b> <C-b>
+
+" close buffer
+nnoremap <silent> <leader>bd :q<CR>
+
+" horizontal split with new buffer
+nnoremap <silent> <leader>bh :split<CR>
+
+" vertical split with new buffer
+nnoremap <silent> <leader>bv :vsplit<CR>
+
